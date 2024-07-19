@@ -1,0 +1,203 @@
+@relation MyRelation
+
+@attribute twitid numeric
+@attribute username string
+@attribute tweetcontent string
+@attribute createaccount numeric
+@attribute followers numeric
+@attribute followings numeric
+@attribute userfavorite numeric
+@attribute listed numeric
+@attribute tweetcount numeric
+@attribute retweetcount numeric
+@attribute hashtagcount numeric
+@attribute mentioncount numeric
+@attribute urlcount numeric
+@attribute charcount numeric
+@attribute digitcount numeric
+@attribute classify string
+
+@data
+1,'STAR PLUS','#Divek’s love story is indeed adorable. Find out how it all began for them on #NachBaliye8 this Sat-Sun at 8pm.… https://t.co/Zuuo89p1PB',2725,1817077,632,1549,538,79924,3,2,0,1,136,5,NonSpam
+2,'Press Trust of India','Home Ministry gives approval for induction of 2 ministers in Delhi govt, forwards files to Prez #PranabMukherjee: Sources. @AamAadmiParty',2298,1456399,1,0,2684,48667,7,1,1,0,137,1,NonSpam
+3,'Zee Music Company','RT @YouTubeIndia: This got us in the party mood and it\'s not even Friday yet ?? ? https://t.co/CAREHxLvlh #Jaanu @shrutihaasan @RajkummarRa…',1165,672976,419,2390,67,11741,2,1,2,1,142,0,Spam
+4,'Shiv Aroor','Our Generals on TV saying 27 Pak prisoners should be hanged if #KulbhushanJadhav executed. Silly threat. Pak has no problem losing citizens.',2573,516325,317,154,973,59042,40,1,0,0,140,2,Spam
+5,'Press Trust of India','No entry for visitors with laptops, tablets, iPads in American centres in Delhi, Mumbai, Kolkata; ban was already at Chennai @USAndIndia',2298,1456399,1,0,2684,48667,32,0,1,0,136,0,Spam
+6,'Shekhar Gupta','It\'s a very good point. And a brave one, most journalists today will be scared of making, this side of the border o… https://t.co/GgH9EOEGul',1065,1447093,1097,8727,1166,9557,15,0,0,1,140,1,NonSpam
+7,'Rahul Kanwal','RT @ravi4354: Appreciate @IndiaToday for sustained efforts in favor of #RewariGirls made @mlkhattar to buckle underPressure @rahulkanwal @s…',2798,3190253,2734,1735,2262,27520,5,1,4,0,140,4,Spam
+8,'Press Trust of India','Milk will be exempted from #GST; foodgrains to be cheaper: Revenue Secretary.',2298,1456399,1,0,2684,48667,87,1,0,0,77,0,NonSpam
+9,'Great Minds Quotes','\"Tact is the art of making a point without making an enemy.\" - Isaac Newton',3000,3242030,187557,10,24593,31991,121,0,0,0,75,0,Spam
+10,'Shiv Aroor','\"Dr Swamy, can you praise AND punch in the same breath?\"\n\nSwamy: https://t.co/WWqSoO3D1X',2573,516325,317,154,973,59042,32,0,0,1,88,2,Spam
+11,'Sarbananda Sonowal','RT @CMOfficeAssam: 1,76,335 rural houses have been completed in 2016-17, which is much higher compared to previous years\' accomplishments h…',1067,258405,101,308,197,3692,18,0,1,0,140,12,Spam
+12,'Press Trust of India','Hair oil, soap, toothpaste to attract 18\% #GST; cereals will be exempted from tax as opposed to current 5\% rate.',2298,1456399,1,0,2684,48667,51,1,0,0,112,3,NonSpam
+13,'Press Trust of India','#GSTrate on coal fixed at 5\% as against 11.69\% now; sugar, tea, coffee, edible oil to also attract 5\% tax: Revenue Secretary.',2298,1456399,1,0,2684,48667,48,1,0,0,125,6,Spam
+14,'Press Trust of India','Hope to finalise list of exempted items tomorrow; will also discuss rate of tax on gold and bidi: FM.',2298,1456399,1,0,2684,48667,16,0,0,0,101,0,Spam
+15,'Bollywood Hungama','Must Watch response of @SunielVShetty on @aamir_khan \'s #Dangal storm in #China https://t.co/dIsFgUcfD7',2919,1091800,584,877,1036,38454,22,2,2,0,103,1,Spam
+16,'Press Trust of India','It\'s legally binding: MEA on what will happen if Pakistan does not implement the #ICJ order on #KulbhushanJadhav. @MEAIndia',2298,1456399,1,0,2684,48667,12,2,1,0,123,0,Spam
+17,'INC India','The reality of @narendramodi\'s own Adarsh Gram: Roads broken, Limited power, Jobs lost. Watch #Bluff6 #Tikdam6 https://t.co/3jgwYm9zP3',1562,1898435,2302,707,988,39929,92,2,1,0,134,5,Spam
+18,'Press Trust of India','#GSTCouncil to discuss tomorrow rates on services, may meet once more if tax for all items not decided by then: @arunjaitley.',2298,1456399,1,0,2684,48667,7,1,1,0,125,0,Spam
+19,'Bollywood Hungama','#RameshSippy\'s SHOCKING Comment On #Sholay, believed to be a FLOP https://t.co/bt11PWXFwV',2919,1091800,584,877,1036,38454,5,2,0,0,89,2,Spam
+20,'Shekhar Gupta','Salve is India\'s best-paid, & highest tax-paying lawyer. Unfortunately maligned in so-called Panama Leaks while he\'… https://t.co/RayiXzqHQ4',1065,1447093,1097,8727,1166,9557,30,0,0,1,140,1,Spam
+21,'Press Trust of India','The #ICJ verdict on #KulbhushanJadhav a matter of great relief for the people of the country, says MEA. @MEAIndia',2298,1456399,1,0,2684,48667,6,2,1,0,113,0,Spam
+22,'Press Trust of India','Out of 1,211 items, #GST rates on all barring 6 have been decided: FM.',2298,1456399,1,0,2684,48667,17,1,0,0,70,5,Spam
+23,'Press Trust of India','#GSTCouncil okays 7 rules of GST; remaining 2 rules relating to transition and return being vetted by legal committee: @arunjaitley.',2298,1456399,1,0,2684,48667,17,1,1,0,132,2,Spam
+24,'Press Trust of India','Unanimous, favourable, clear and unambiguous, says Ministry of External Affairs of #ICJ order on #KulbhushanJadhav. @MEAIndia',2298,1456399,1,0,2684,48667,12,2,1,0,125,0,Spam
+25,'Press Trust of India','The provisional relief provided by #ICJ is the first step towards ensuring justice to #KulbhushanJadhav: MEA. @MEAIndia',2298,1456399,1,0,2684,48667,8,2,1,0,119,0,Spam
+26,'Press Trust of India','Govt will do everything possible to save the life of #KulbhushanJadhav, says Ministry of External Affairs. @MEAIndia',2298,1456399,1,0,2684,48667,13,1,1,0,116,0,Spam
+27,'ABP News','The provisional relief provided by #ICJ is the first step in ensuring justice to Jadhav: @MEAIndia',2929,6533580,133,0,3072,149154,6,1,1,0,98,0,Spam
+28,'Tips Films & Music','“The Only Love Stories Worth Telling Are The Forbidden Ones” - #ICYMI, watch the #ShabTrailer now!! @ShabTheFilm… https://t.co/0B6L9brbng',1624,171304,190,2277,87,7789,2,2,1,1,137,3,NonSpam
+29,'Bollywood Hungama','Veteran actress #ReemaLagooJi passes away https://t.co/lzuRwTEnoF',2919,1091800,584,877,1036,38454,12,1,0,0,65,0,Spam
+30,'Dharma Productions','Lights, camera, acti-wait! Where did the smile go?? #ThrowbackThursday #BKD #BehindTheScenes @aliaa08… https://t.co/NjVec92pOd',2396,2561147,52,369,359,9555,34,3,1,1,127,4,Spam
+31,'ABP News','#India will take every possible step to save #KulbhushanJadhav, says @MEAIndia \nhttps://t.co/JQJlKYWHWM',2929,6533580,133,0,3072,149154,7,2,1,1,103,0,Spam
+32,'RJ ALOK','News : @sachin_rt \'s upcoming docu film Sachin: A Billion Dreams made Tax free in Kerala and Chhattisgarh. #RjAlok',2761,300276,432,7957,88,25746,2,1,1,0,114,0,Spam
+33,'Bollywood Hungama','OMG! @arjunk26 KISSED @RanveerOfficial, Fan of @BeingSalmanKhan - Autocomplete Interview #TalkingFilms https://t.co/kwJpde7jFq',2919,1091800,584,877,1036,38454,11,1,3,0,126,3,Spam
+34,'ABP News','.@MEAIndia addresses a press conference on #KulbhushanJadhav case\nWatch: https://t.co/JQJlKZeiOk https://t.co/etWdZF2fYa',2929,6533580,133,0,3072,149154,8,1,1,1,120,1,Spam
+35,'SUHEL SETH','Many many congratulations to Arnab Goswami and the team at @republic : great start! https://t.co/mGyWUDcorr',2938,3421183,1022,67,1630,35871,104,0,1,0,107,0,Spam
+36,'SUHEL SETH','RT @arunjaitley: Well done! #HarishSalve - you have done India Proud.',2938,3421183,1022,67,1630,35871,561,1,1,0,69,0,Spam
+37,'RJ ALOK','Good news :\nICJ put halt on Kulbhushan Jadhav execution and warned PAK on irreparable prejudice. ??  #RjAlok https://t.co/bHE44MvM1T',2761,300276,432,7957,88,25746,2,1,0,0,134,3,NonSpam
+38,'STAR PLUS','Has Nandni\'s hatred for Chandra once again overpowered her love? Watch their story on #ChandraNandni.… https://t.co/6Pb8QUY0Y3',2725,1817077,632,1549,538,79924,14,1,0,1,126,4,NonSpam
+39,'Bollywood Hungama','MUST WATCH : @sonamakapoor on @deepikapadukone\'s debut in #Cannes2017 https://t.co/UqeND0yrOx',2919,1091800,584,877,1036,38454,4,1,2,0,93,5,Spam
+40,'ShivrajSingh Chouhan','Congratulate Smt. @SushmaSwaraj, @MEAIndia & #HarishSalve for accomplishing a favourable verdict in #KulbhushanJadhav case at the ICJ.',1532,2438688,262,1144,1294,14318,45,2,2,0,134,0,Spam
+41,'Bollywood Hungama','\"God gave me opportunity to play cricket, I am not God\" @sachin_rt \n#TalkingFilms https://t.co/2u87Lx6ZFu',2919,1091800,584,877,1036,38454,16,1,1,0,105,4,Spam
+42,'ShivrajSingh Chouhan','Extremely confident that under the able leadership of PM @narendramodi India will use all legal means available to save #KulbhushanJadhav.',1532,2438688,262,1144,1294,14318,51,1,1,0,138,0,NonSpam
+43,'Vasundhara Raje','Under strong leadership, emerges a #StrongIndia. @narendramodi #KulbhushanJadhav #SatyamevJayate',1518,1174386,103,1192,948,6674,42,3,1,0,96,0,Spam
+44,'Vasundhara Raje','Welcome the verdict by ICJ to stay execution of #KulbhushanJadhav. Laud efforts of @SushmaSwaraj ji & MEA in getting justice to his family.',1518,1174386,103,1192,948,6674,42,1,1,0,139,0,Spam
+45,'Press Trust of India','India retain their No.1 position in the @ICC Test Team Rankings following annual update. @BCCI.',2298,1456399,1,0,2684,48667,32,0,2,0,95,1,Spam
+46,'ShivrajSingh Chouhan','Satyamev Jayate. Very pleased with #KulbhushanVerdict, as Pakistan stands exposed in front of the world for defying international rules.',1532,2438688,262,1144,1294,14318,57,1,0,0,136,0,Spam
+47,'Manohar Lal','Happy that #KulbhushanJadhav death sentence has been stayed by #ICJ. ProActive approach by @narendramodi ji & @SushmaSwaraj ji worked for us',2200,601742,248,0,454,7783,44,2,2,0,140,0,NonSpam
+48,'Zee Music Company','Step Up & Dance to the tunes of #Jaanu from @BHTtheFilm https://t.co/buXTDyxobj @JuggyD @raftaarmusic @ShivranjaniS @MusicByRR @shrutihaasan',1165,672976,419,2390,67,11741,2,1,6,1,140,0,NonSpam
+49,'Shiv Aroor','Salve: \'Went well for us.\'\nSushma: \'Grateful to Mr Salve.\'\nRajnath: \'Satisfied & relieved.\'\nSwamy: ATTACK PAKISTAN, DIVIDE THEM INTO FOUR!!!',2573,516325,317,154,973,59042,165,0,0,0,140,0,Spam
+50,'Vikram Chandra','Reality Check at 9:30 on what happens next after the big win at the #ICJ https://t.co/ex3698SwBH',3092,2510299,157,76,2894,15166,1,1,0,0,96,7,Spam
+51,'ABP News','India is trying to defend a person whose actions led to killing of innocent Pakistanis: Pak Foreign Ministry on #KulbhushanJadhav (ANI)',2929,6533580,133,0,3072,149154,5,1,0,0,135,0,Spam
+52,TSeries,'RT @filtercopy: .@irrfank is LIT AF! Who\'d you gift a LITbit to?\n//@TSeries @HindiMediumfilm https://t.co/6WQcpN9JAL',2218,834890,229,879,328,15739,7,0,4,0,116,2,Spam
+53,'Bollywood Hungama','“It will be a Privilege” : @humasqureshi on working with @superstarrajini \nhttps://t.co/Rxw5QSFuQj https://t.co/6GnctmwkPL',2919,1091800,584,877,1036,38454,7,0,2,1,122,2,Spam
+54,'Bollywood Hungama','The Beautiful @humasqureshi on #Baahubali2 Success: “Saying it’s getting good response is an understatement”… https://t.co/qmI2HyBC7A',2919,1091800,584,877,1036,38454,7,1,1,1,133,3,NonSpam
+55,'Piyush Goyal','Offered my respects & tribute to Shri Anil Madhav Dave. In him, we have lost a dedicated leader who served the nati… https://t.co/zGD74BwxaI',1506,1177212,460,2427,1342,13438,109,0,0,1,140,2,Spam
+56,'Bollywood Hungama','The Gorgeous @aliaa08 coins this new term for #Baahubali2’s PHENOMENAL Success\nhttps://t.co/69l4c19Bv4 https://t.co/yaOjwsPprz',2919,1091800,584,877,1036,38454,12,1,1,1,126,9,Spam
+57,'Sony Music India','#Radio leaving a mark all around the world. https://t.co/xQP025OLDU\n\n@BeingSalmanKhan @SKFilmsOfficial… https://t.co/LgtCqMIOMb',2095,468041,864,3115,197,20089,90,1,2,2,127,3,Spam
+58,'Press Trust of India','Militants hurl a grenade at a police station in old #Srinagar city, policeman injured.',2298,1456399,1,0,2684,48667,3,1,0,0,86,0,Spam
+59,'Press Trust of India','#Pakistan will present solid evidence against #KulbhushanJadhav in the International Court: Pakistan Foreign Office spokesperson. 2/2',2298,1456399,1,0,2684,48667,16,2,0,0,133,2,Spam
+60,'Press Trust of India','#India has been \'trying to hide its real face\' by taking the case of #KulbhushanJadhav to #ICJ: #Pakistan Foreign Office spokesperson. 1/2',2298,1456399,1,0,2684,48667,14,4,0,0,138,2,Spam
+61,'Bollywood Hungama','.@baywatchmovie \'s Red Band R-rated trailer is HOT\nhttps://t.co/sOzOW3PgAx https://t.co/orOKznNOsw',2919,1091800,584,877,1036,38454,4,0,1,1,98,1,Spam
+62,'Bollywood Hungama','Glass Breaking Challenge with #Dobaara Team – @humasqureshi & @Saqibsaleem \nhttps://t.co/6sUuATZ6HI https://t.co/TlTx2EzPbX',2919,1091800,584,877,1036,38454,9,1,2,1,123,3,Spam
+63,'Press Trust of India','#ED takes possession of Rs 100 crore farm house of #VijayMallya in Maharashtra\'s Alibag in connection with its money laundering probe case.',2298,1456399,1,0,2684,48667,48,2,0,0,139,3,Spam
+64,'Narendra Modi','This document is a manifestation of simplicity & selflessness in public life. It is an illustration of Nishkama Kar… https://t.co/w2E8evufCZ',3049,29977308,1769,0,20701,15151,2400,0,0,1,140,2,Spam
+65,'PMO India','PM @narendramodi paid his last respects to late Shri Anil Madhav Dave. https://t.co/pQgVoNTOoz',1942,17988136,387,0,7070,15115,349,0,1,0,94,0,Spam
+66,'Narendra Modi','RT @SushmaSwaraj: I compliment my team of officers in the MEA for their tireless efforts and hard work.',3049,29977308,1769,0,20701,15151,2700,0,1,0,103,0,Spam
+67,'Manohar Lal','My appeal to those students who haven\'t been able to get their expected results - please do not lose hope. I wish them best for their future',2200,601742,248,0,454,7783,13,0,0,0,140,0,NonSpam
+68,'Abhijit Majumder','Good to see India go to such lengths for one citizen. Pakistan refused to even take back bodies during Kargil. #KulbhushanJadhav',2867,321844,498,414,970,39030,698,1,0,0,128,0,NonSpam
+69,'Manohar Lal','I congratulate all the students who have passed Haryana\'s HBSE Class 12th exams today. Wishing them the very best for their future.',2200,601742,248,0,454,7783,26,0,0,0,131,2,Spam
+70,'Vikram Chandra','RT @BhawalMengal: The Chinese language(Mandarin)is now compulsory in a school in Islamabad.\nAfter 70yrs Balochi is still not taught in scho…',3092,2510299,157,76,2894,15166,555,0,1,0,140,2,Spam
+71,'Shiv Aroor','Indian restaurant in London could shut after fake news story claimed it serves human meat. https://t.co/jwKU0aj6ux https://t.co/XZL30vZD0d',2573,516325,317,154,973,59042,17,0,0,1,138,5,Spam
+72,'INC India','Modi ji thrives on empty rhetoric & corruption thrives under people like PM Modi. #BJPReddy35000CroreScam https://t.co/Tc3zKcyfS9',1562,1898435,2302,707,988,39929,144,1,0,0,129,7,NonSpam
+73,'Vikram Chandra','Meanwhile this debate in Pakistan. Will the country end up as a Chinese colony? https://t.co/gDegn0mpLA',3092,2510299,157,76,2894,15166,26,0,0,1,103,1,Spam
+74,'Press Trust of India','Prima facie, court observes it cannot conclude that the Article 36 of #ViennaConvention does not apply in this case, says #ICJ Judge.',2298,1456399,1,0,2684,48667,20,2,0,0,133,2,Spam
+75,'Press Trust of India','The #ICJ order on #KulbhushanJadhav has come as a great relief to his family & the people of India: External Affairs Minister @SushmaSwaraj.',2298,1456399,1,0,2684,48667,33,2,1,0,140,0,Spam
+76,'Shiv Aroor','Posting for no real reason. https://t.co/z7o60P8yK9',2573,516325,317,154,973,59042,55,0,0,0,51,5,Spam
+77,'Rajdeep Sardesai','Just a word of caution: this is stay on procedural/jurisdiction grounds. We must celebrate when we get Jadhav free on merit #IndiaForJadhav',2866,6097211,492,309,8886,47520,135,1,0,0,139,0,Spam
+78,TSeries,'The best wedding song of the season has arrived, #FranklyTuSonaNachdi- https://t.co/wA43Hswi3F\n\n#GuestIinLondon https://t.co/pNj5jZUiId',2218,834890,229,879,328,15739,21,2,0,1,135,4,Spam
+79,'Press Trust of India','PM speaks to EAM @SushmaSwaraj to thank her; appreciates efforts of advocate #HarishSalve who represented India in the Jadhav case.',2298,1456399,1,0,2684,48667,115,1,1,0,131,0,Spam
+80,'Rajdeep Sardesai','Let\'s give a huge clap for @SushmaSwaraj and Harish Salve and the legal/diplomatic team. jai ho! #IndiaForJadhav',2866,6097211,492,309,8886,47520,242,1,1,0,112,0,Spam
+81,'Great Minds Quotes','\"Believe and act as if it were impossible to fail.\" - Charles F. Kettering',3000,3242030,187557,10,24593,31991,166,0,0,0,74,0,Spam
+82,'Zee Music Company','Feel the emotion of love in every word in #LostWithoutYou from #HalfGirlfriend\nhttps://t.co/C54gVTqEsT',1165,672976,419,2390,67,11741,8,2,0,1,102,2,NonSpam
+83,'ABP News','PM @NarendraModi expresses satisfaction at the judgement of International Court of Justice in #KulbhushanJadhav case. (PTI)',2929,6533580,133,0,3072,149154,20,1,1,0,123,0,Spam
+84,'Press Trust of India','PM @NarendraModi expresses satisfaction at the judgement of International Court of Justice in #KulbhushanJadhav case.',2298,1456399,1,0,2684,48667,44,1,1,0,117,0,Spam
+85,'Vikram Chandra','Kudos to Harish Salve and to everyone else who fought so effectively for #KulbhushanJadhav. #ICJ #IndiaWins https://t.co/v1intVujZ3',3092,2510299,157,76,2894,15166,25,3,0,1,131,2,Spam
+86,'ABP News','#KulbhushanJadhav\'s friends in #Mumbai hail #ICJverdict https://t.co/vgyqHiKicu',2929,6533580,133,0,3072,149154,32,3,0,0,79,0,Spam
+87,BJP,'RT @SushmaSwaraj: I assure the nation that under the leadership of Prime Minister Modi we will leave no stone unturned to save #KulbhushanJ…',2396,5023375,2,0,1713,161046,4983,0,1,0,140,0,Spam
+88,BJP,'RT @SushmaSwaraj: We are grateful to Mr.Harish Salve for presenting India\'s case so effectively before ICJ.',2396,5023375,2,0,1713,161046,5425,0,1,0,107,0,Spam
+89,'Smita Prakash','Wagah pay vapasi. Come on Pakistan, do it. #KulbhusanJadhav',2883,341045,204,646,1265,70625,41,1,0,0,59,0,Spam
+90,'SUHEL SETH','Well done HARISH Salve and Team India. Justice prevailed. As it must.',2938,3421183,1022,67,1630,35871,318,0,0,0,69,0,Spam
+91,'Western Railway','Bandra station leaps ahead in cleanliness. https://t.co/ljlMjmfi7u @RailMinIndia @sureshpprabhu https://t.co/C6PPFhJIHI',741,56371,3,23,79,5830,4,0,2,1,119,2,Spam
+92,'ABP News','We are grateful to Mr.Harish Salve for presenting India\'s case so effectively before ICJ: EAM @SushmaSwaraj',2929,6533580,133,0,3072,149154,42,0,1,0,107,0,Spam
+93,BJP,'Watch the statement made by EAM @SushmaSwaraj in the Parliament on #KulbhushanJadhav. The #ICJ has ruled to stay hi… https://t.co/jRUEiO5R4B',2396,5023375,2,0,1713,161046,677,2,1,1,140,2,Spam
+94,'Rahul Kanwal','Loud applause in @IndiaToday Newsroom as the ICJ stays the death sentence to Kulbhushan Jadhav. Major international embarrassment for Pak.',2798,3190253,2734,1735,2262,27520,165,0,1,0,138,0,Spam
+95,BJP,'RT @SushmaSwaraj: The ICJ order has come as a great relief to the familly of Kulbhushan Jadhav and people of India.',2396,5023375,2,0,1713,161046,5142,0,1,0,115,0,Spam
+96,'ABP News','The ICJ order has come as a great relief to the familly of Kulbhushan Jadhav and people of India: EAM @SushmaSwaraj',2929,6533580,133,0,3072,149154,16,0,1,0,115,0,Spam
+97,'INC India','Dr Manmohan Singh, Shri Rahul Gandhi & Shri Anand Sharma met HE Mr. Mahmoud Abbas, President of the State of Palest… https://t.co/ROHhnTKYQH',1562,1898435,2302,707,988,39929,214,0,0,1,140,0,Spam
+98,'Yash Raj Films','A tune that won’t get out of your head! #HumHainBankChor – Full Song Audio OUT NOW. @Y_films https://t.co/Aoxoju960B',2850,1876881,92,30,950,15542,7,1,1,1,116,3,NonSpam
+99,'Press Trust of India','150 day period for clemency given by #Pakistan which ends in August suggests execution can happen immediately thereafter: #ICJ.',2298,1456399,1,0,2684,48667,26,2,0,0,127,3,Spam
+100,'Press Trust of India','The 150 day period for clemency given by #Pakistan which ends in August suggests that the execution can happen immediately thereafter: #ICJ.',2298,1456399,1,0,2684,48667,43,2,0,0,140,3,Spam
+101,'Bollywood Hungama','VIDEO : @chintskap at #ReemaLagooJi \'s Funeral https://t.co/XhLlAtUOGr',2919,1091800,584,877,1036,38454,7,1,1,0,70,0,Spam
+102,'Abhijit Majumder','ICJ judge Ronny Abraham also agrees on India\'s demand for consular access and other rights to #KulbhushanJadhav',2867,321844,498,414,970,39030,21,1,0,0,111,0,Spam
+103,'Press Trust of India','The decision to stay #KulbhushanJadhav\'s execution pending #ICJ hearing is unanimous: ICJ President.',2298,1456399,1,0,2684,48667,66,2,0,0,100,0,Spam
+104,'Press Trust of India','#ICJ stays Indian national #KulbhushanJadhav\'s death sentence.',2298,1456399,1,0,2684,48667,90,2,0,0,62,0,Spam
+105,'Shekhar Gupta','Please read my consistent view on this. Pure bilateralism can\'t work with Pak. Peace will need big-power endorsement https://t.co/Re0ywj0w4v',1065,1447093,1097,8727,1166,9557,26,0,0,1,140,3,Spam
+106,'Shiv Aroor','Amazing part: 11 judges at the ICJ were unanimous. If the Pak State was capable of shame, it would be the overwhelming sentiment today.',2573,516325,317,154,973,59042,240,0,0,0,135,2,Spam
+107,'ABP News','Pakistan should not execute Jadhav pending final proceedings, says ICJ.\nhttps://t.co/0RYw4i6ens',2929,6533580,133,0,3072,149154,14,0,0,1,95,3,Spam
+108,'Shekhar Gupta','Hope Pakistan grabs the facesaver #ICJ has gifted it on #KulbhushanYadav Nawaz Sharif Govt will is now on test, as is its equation with Army',1065,1447093,1097,8727,1166,9557,25,2,0,0,140,0,Spam
+109,TSeries,'Presenting #JaneKyunBewajah from #Kutumb sung by the brilliant #ShahidMallya, Music #AryanJaiin -… https://t.co/y2l2M36QxI',2218,834890,229,879,328,15739,6,4,0,1,122,4,NonSpam
+110,'ABP News','Live Updates: ICJ stays Indian national #KulbhushanJadhav\'s death sentence\nhttps://t.co/0RYw4i6ens',2929,6533580,133,0,3072,149154,9,1,0,1,98,3,Spam
+111,'Rajdeep Sardesai','So the buzz was right. Sometimes, our sources are right. #IndiaForJadhav',2866,6097211,492,309,8886,47520,12,1,0,0,72,0,Spam
+112,'ABP News','ICJ announces verdict in #KulbhushanJadhav case, rules in favour of India. \'Pakistan cannot execute the Indian citizen before final verdict\'',2929,6533580,133,0,3072,149154,33,1,0,0,140,0,Spam
+113,'Vikram Chandra','Excellent news from the ICJ. Pakistan has been clearly ordered NOT to hang #KulbhushanJadhav. #IndiaWins.',3092,2510299,157,76,2894,15166,47,2,0,0,105,0,NonSpam
+114,'Abhijit Majumder','India wins. #ICJ scraps hanging of Jadhav till its final decision. Slap for Pakistan echoes worldwide. #ViennaConvention #KulbhushanVerdict',2867,321844,498,414,970,39030,45,3,0,0,139,0,Spam
+115,'Shekhar Gupta','Fine success #ICJ reprieve for #KulbhushanYadav Shows international laws work. Lesson also to warriors spoiling to dump Indus Waters Treaty',1065,1447093,1097,8727,1166,9557,67,2,0,0,139,0,Spam
+116,'Smita Prakash','RT @ANI_news: Appropriate to say that Pak shall take all measures at its disposal to ensure #KulbhushanJadhav is not executed pending final…',2883,341045,204,646,1265,70625,103,1,1,0,140,0,Spam
+117,'Rajdeep Sardesai','Breaking: Jai HO!! #IndiaForJadhav Jadhav sentence stays suspended',2866,6097211,492,309,8886,47520,138,1,0,0,66,0,Spam
+118,'Shiv Aroor','Historic slap for Pakistan\'s \'justice\' system. International Court of Justice stays execution of Kulbhushan Jadhav until final order.',2573,516325,317,154,973,59042,206,0,0,0,133,0,Spam
+119,'ABP News','RT @AshishSinghLIVE: BIG BRKING ICJ Concludes- Appropriate to order Pak to ensure #KulbhushanJadhav is not executed till final judgement @a…',2929,6533580,133,0,3072,149154,13,1,1,0,140,0,Spam
+120,'Vikram Chandra','ICJ: Pakistan must ensure there is no execution of #KulbhushanJadhav until a final decision is announced.',3092,2510299,157,76,2894,15166,16,1,0,0,105,0,Spam
+121,'Rajdeep Sardesai','Breaking:Pakistan shall take all measures to ensure Jadhav is not executed pending ICJ hearings: they have a binding effect #IndiaForJadhav',2866,6097211,492,309,8886,47520,72,1,0,0,139,0,Spam
+122,'Rahul Kanwal','Big whack across the face of the Pakistan army. ICJ knocks the winds out of sham Pak verdict. Jai Ho. Well done @PMOIndia Govt. Shabash.',2798,3190253,2734,1735,2262,27520,331,0,1,0,136,0,Spam
+123,'Rajdeep Sardesai','Breaking: urgent risk to Jadhav\'s life that could lead to irreparable prejudice to India\'s case;provisional measures needed #IndiaForJadhav',2866,6097211,492,309,8886,47520,27,1,0,0,139,0,Spam
+124,'Vikram Chandra','#Breaking ICJ stays the execution of #KulbhushanJadhav. Big win for India at the World Court.',3092,2510299,157,76,2894,15166,28,2,0,0,93,0,Spam
+125,'ABP News','RT @AshishSinghLIVE: Pak has given no assurance before the court gives final order. Court accepts there is an urgency #KulbhushanJadhav @ab…',2929,6533580,133,0,3072,149154,8,1,1,0,140,0,Spam
+126,'Smriti Z Irani','RT @grin_news: First of a series on GI (Geographical Indications) crafts in #India #IndiaUnique Agates of Cambay https://t.co/582bspavSa @s…',2599,6343403,306,21,2441,14995,14,2,1,1,140,3,Spam
+127,'Smriti Z Irani','RT @NITIAayog: Share your empowerment journey and get recognised by NITI Aayog, @UNinIndia & @mygovindia. Send your story here: https://t.c…',2599,6343403,306,21,2441,14995,39,0,3,0,140,0,NonSpam
+128,'Smriti Z Irani','RT @AkashvaniAIR: #SevaKeTeenSaal \nDon\'t miss the interview with Smt @smritiirani , Union Minister, @TexMinIndia \nTonight @ 8 pm \non Indrap…',2599,6343403,306,21,2441,14995,29,1,3,0,140,1,Spam
+129,'ABP News','RT @AshishSinghLIVE: Rights raised by India are Plausible. ICJ on #KulbhushanJadhav @abpnewstv',2929,6533580,133,0,3072,149154,5,1,2,0,94,0,Spam
+130,'Rajdeep Sardesai','Breaking:  consular access under Vienna Convention are recognised under Article 36; right invoked by India are plausible #IndiaForJadhav',2866,6097211,492,309,8886,47520,54,1,0,0,136,2,Spam
+131,'Vikram Chandra','ICJ says it does have jurisdiction on the matter of consular access to #KulbhushanJadhav',3092,2510299,157,76,2894,15166,14,1,0,0,88,0,Spam
+132,'ABP News','RT @AshishSinghLIVE: 2008 Bilateral Agreement argument does not bar India from Consular Access of #KulbhushanJadhav',2929,6533580,133,0,3072,149154,9,1,1,0,115,4,NonSpam
+133,'INC India','What invisible hand is guiding the CBI away from investigating Janardhana Reddy? #BJPReddy35000CroreScam https://t.co/9L9O5Vj3XX',1562,1898435,2302,707,988,39929,319,1,0,0,128,9,NonSpam
+134,'Press Trust of India','#Sensex retreats from record, ends 223.98 pts lower at 30,434.79; #Nifty falls 96.30 pts to 9,429.45.',2298,1456399,1,0,2684,48667,3,2,0,0,101,22,NonSpam
+135,'Rajdeep Sardesai','Breaking: 2008 Indo-Pak agreement doesn\'t prevent the ICJ from exercising jurisdiction at this stage. #IndiaForJadhav',2866,6097211,492,309,8886,47520,36,1,0,0,117,4,NonSpam
+136,'ABP News','India should have been given consular access as per Vienna convention: ICJ Judge Ronny Abraham #KulbhushanJadhav https://t.co/8oJw3VwwcE',2929,6533580,133,0,3072,149154,28,1,0,0,136,2,Spam
+137,'Press Trust of India','The circumstances of #KulbhushanJadhav\'s arrest remains disputed, says #ICJ judge.',2298,1456399,1,0,2684,48667,73,2,0,0,82,0,Spam
+138,'Press Trust of India','11-judge International Court of Justice (#ICJ) bench begins reading out verdict in Kulbhushan Jadhav case.',2298,1456399,1,0,2684,48667,19,1,0,0,106,2,Spam
+139,'Press Trust of India','#SIT constituted to probe death of Karnataka cadre IAS officer #AnuragTiwari, to give report within 72 hours: SSP Lucknow Deepak Kumar.',2298,1456399,1,0,2684,48667,5,2,0,0,135,2,Spam
+140,'Rajdeep Sardesai','Breaking: ICJ has jurisdiction over dispute over Vienna Convention.. #IndiaForJadhav',2866,6097211,492,309,8886,47520,25,1,0,0,84,0,Spam
+141,'Vikram Chandra','RT @ndtv: UN Court decision on India vs Pak in #KulbhushanJadhav case\n\nWatch LIVE: https://t.co/hMlRpgrUU6 https://t.co/j9aXRT2umJ',3092,2510299,157,76,2894,15166,4,1,1,1,130,3,Spam
+142,'ABP News','Live: ICJ reading out verdict on #KulbhushanJadhav \nhttps://t.co/0RYw4i6ens',2929,6533580,133,0,3072,149154,5,1,0,1,75,3,Spam
+143,'ABP News','Live Updates: ICJ to pronounce verdict in Kulbhushan Jadhav case shortly \nhttps://t.co/0RYw4i6ens',2929,6533580,133,0,3072,149154,3,0,0,1,97,3,Spam
+144,'ABP News','#KulbhushanJadhavVerdict : The International Court of Justice will pronounce its verdict shortly. Watch LIVE:… https://t.co/cBdTFIDVyF',2929,6533580,133,0,3072,149154,9,1,0,1,134,0,Spam
+145,TSeries,'RT @theaaryankartik: Bas Thoda time aur ?\n#FranklyTuSonaNachdi https://t.co/LI8j0W1cIP',2218,834890,229,879,328,15739,14,1,1,0,87,3,Spam
+146,'ABP News','RT @AshishSinghLIVE: International Court of Justice has no jurisdiction to hear case of Indian RAW agent as it pertains to th security of P…',2929,6533580,133,0,3072,149154,4,0,1,0,140,0,Spam
+147,'VISHAL DADLANI','RT @JimmyPage: RIP Chris Cornell\nIncredibly Talented\nIncredibly Young\nIncredibly Missed. https://t.co/pKNI4tKiXz',2919,2561912,436,6191,2419,50674,8625,0,1,0,112,1,Spam
+148,'VISHAL DADLANI','RT @metalinsider: Chris Cornell, iconic @soundgarden and @templeofthedog frontman, dies at 52: https://t.co/YwfDI8WqYu https://t.co/G8ZiS14…',2919,2561912,436,6191,2419,50674,48,0,3,1,140,6,Spam
+149,'ABP News','#KulbhushanJadhav case: #ICJ to pronounce verdict shortly\nhttps://t.co/0RYw4i6ens https://t.co/oYvsqLbJKf',2929,6533580,133,0,3072,149154,10,2,0,1,105,3,Spam
+150,'ShivrajSingh Chouhan','Shri Anil Madhav Dave worked tirelessly for conservation of Narmada. This is a personal loss for me. https://t.co/XvVEhVqmfS',1532,2438688,262,1144,1294,14318,60,0,0,0,124,0,Spam
+151,'Western Railway','RT @RailMinIndia: What, however, has surprised most is the unprecedented speed at which the plan is bearing fruit—FY17 capex >2x FY15 https…',741,56371,3,23,79,5830,44,0,1,0,140,5,Spam
+152,abhijeet,'RT @TimesNow: Hurriyat hypocrisy: Ask Kashmir\'s youth to fight, but want luxurious life for kin https://t.co/aWbNleyClg',2152,1162233,279,81,184,12129,97,0,1,1,119,0,Spam
+153,'Western Railway','RT @RailMinIndia: Western Railway stations will get facilities akin to airports.\nhttps://t.co/3GnxcphNU8 https://t.co/9BMXEFL7VY',741,56371,3,23,79,5830,60,0,1,1,128,4,Spam
+154,'Bollywood Hungama','PICS : @chintskap at #ReemaLagooJi \'s Funeral in Mumbai https://t.co/b2rk0Xv85J',2919,1091800,584,877,1036,38454,9,1,1,0,79,4,Spam
+155,TSeries,'The struggle for admissions begins.\n#HindiMedium in cinemas tomorrow. Book your seats now - https://t.co/UsKir1mVw9… https://t.co/upY1esQXDl',2218,834890,229,879,328,15739,10,1,0,2,140,3,NonSpam
+156,'ShivrajSingh Chouhan','In Shri Anil Madhav Dave nation has lost an environmentalist, a river conservationist,  a Swayamsevak & a true nati… https://t.co/ChJBjHXAxq',1532,2438688,262,1144,1294,14318,72,0,0,1,140,0,Spam
+157,'Yash Raj Films','Have you heard the #BankChor anthem yet? @Y_films https://t.co/W3icpqqv9t',2850,1876881,92,30,950,15542,8,1,1,1,73,2,Spam
+158,'Tips Films & Music','Happy Birthday to the multitalented @AliZafarsays! #AliZafar https://t.co/kgLEAgN0ER',1624,171304,190,2277,87,7789,1,1,1,0,84,1,NonSpam
+159,'INC India','Indira Gandhi Prize (2014) being presented to ISRO by former PM Dr Manmohan Singh, in the presence of Congress Pres… https://t.co/wBWJGfjtAP',1562,1898435,2302,707,988,39929,254,0,0,1,140,4,Spam
+160,'Eros Now','In memory of the most beloved mother of #Bollywood. RIP #ReemaLagoo??\nhttps://t.co/gKwfvp67G7 https://t.co/caWMt9a6zG',1935,529483,486,5858,305,33032,20,2,0,1,119,5,Spam
+161,abhijeet,'Thanks for giving me the opportunity to hit hard to that \"Fatwa wala Kadir\" bellow the belt.. \n??????? ???? ???????… https://t.co/epZPbhZlq4',2152,1162233,279,81,184,12129,118,0,0,1,140,1,Spam
+162,'Zee Music Company','#HalfGirlfriend is out with another heart-melting song ! Listen to #TuHiHai sung by #RahulMishra\nhttps://t.co/9LUk5UhQLM @balajimotionpic',1165,672976,419,2390,67,11741,12,3,1,1,137,2,Spam
+163,'Bollywood Hungama','\"You will be HUGELY missed\" Celebs react on #ReemaLagoo ji\'s unfortunate demise https://t.co/hskcjkrxXF',2919,1091800,584,877,1036,38454,16,1,0,0,103,0,Spam
+164,'Bollywood Hungama','.@fattysanashaikh & @sanyamalhotra07 at #ReemaLagoo ji\'s residence https://t.co/Uuz1e2dVuf',2919,1091800,584,877,1036,38454,12,1,2,0,90,4,Spam
+165,'Press Trust of India','#Tax rates on 80-90 per cent of items nearly finalised by #GST Council: Official sources.',2298,1456399,1,0,2684,48667,31,2,0,0,89,4,Spam
+166,'Dharma Productions','Arm in arm, on-screen or off-screen - these two are ????!? #ThrowbackThursday #BehindTheScenes #BKD @varun_dvn… https://t.co/PtyeO9BVXP',2396,2561147,52,369,359,9555,110,3,1,1,136,1,Spam
+167,'Eros Now','Here\'s a sneak peek from the exclusive #BlackAndWhite Interview of the Bollywood ace actor @TheAmitSadh! #Sarkar3… https://t.co/r9fWQMKT9G',1935,529483,486,5858,305,33032,5,2,1,1,138,3,NonSpam
+168,'RJ ALOK','Here @aamir_khan Sir talking about #ReemaLagoo Ji.. Remembering her ?? #RjAlok https://t.co/3beTH0W48W',2761,300276,432,7957,88,25746,16,2,1,0,104,4,Spam
+169,'Rahul Kanwal','RT @IndiaToday: First reaction of @Gen_VKSingh on #HurriyatTruthTapes.\nWatch the full interview with @rahulkanwal here https://t.co/a657Fw5…',2798,3190253,2734,1735,2262,27520,42,1,3,0,140,4,Spam
+170,'Yash Raj Films','RT @Y_films: Hum Hai Bank Chor, Hum Pe Kiska Zor? \nListen to #BankChorTilteTrack here - https://t.co/8OA9hpSrLp https://t.co/tcjvu7UW9C',2850,1876881,92,30,950,15542,6,1,1,1,135,4,Spam
+171,'ABP News','21-year-old DJ runs with Rs 1 crore, nabbed after she goes live on Facebook #DJShikha\nhttps://t.co/VLok356CkW https://t.co/cRiDVJgkyP',2929,6533580,133,0,3072,149154,9,1,0,1,133,6,Spam
+172,'Bollywood Hungama','.@KajolAtUN marks her presence at the funeral of #ReemaLagoo Ji https://t.co/c2aL1W59jL',2919,1091800,584,877,1036,38454,65,1,1,0,87,4,Spam
+173,'Rahul Kanwal','Hurriyat acting like classic ostriches. Say won\'t comment on @IndiaToday investigation or act against those exposed by #HurriyatTruthTapes',2798,3190253,2734,1735,2262,27520,33,1,1,0,138,0,NonSpam
+174,'VISHAL DADLANI','Don\'t have the words to describe the loss. As our heroes disappear, one by one, we lose our immortality in little s… https://t.co/6hmtF0VQYp',2919,2561912,436,6191,2419,50674,11,0,0,1,140,2,Spam
+175,TSeries,'RT @atulmohanhere: With funny & light moments #HindiMedium tackles the serious issue of education in India. Don\'t Miss! A must watch for al…',2218,834890,229,879,328,15739,15,1,1,0,140,0,Spam
+176,'INC India','Shri Azad prayed to the Almighty to give strength and courage to the near & dear ones of Shri Dave and that his soul may rest in peace.',1562,1898435,2302,707,988,39929,85,0,0,0,135,0,Spam
+177,'STAR PLUS','Relationships grow stronger when the feelings are mutual. Do you agree? Dhhai Kilo Prem, Mon-Sat at 2pm.… https://t.co/6v2K7tOqaR',2725,1817077,632,1549,538,79924,7,0,0,1,129,4,Spam
+178,'Sahil Shah','See you today! https://t.co/8VVXI5ZE8a',2411,663108,898,4695,307,53421,2,0,0,0,38,3,Spam
+179,'Shiv Aroor','RIP, @ChrisCornell. Nothing will ever describe how your voice and words spoke to so many of us.… https://t.co/TY1lhLwty7',2573,516325,317,154,973,59042,7,0,1,1,120,2,NonSpam
+180,TSeries,'Get ready for @iSharryMann\'s new song #Hostel.\nReleasing soon on #TSeriesApnaPunjab \n#MistaBaaz #ParmishVerma https://t.co/NUAdmMOAEO',2218,834890,229,879,328,15739,1,4,1,0,133,0,Spam
+181,'Rajdeep Sardesai','Buzz from Hague: India will be granted consular access; Pakistan will have to suspend Jadhav sentence for now. More details soon!',2866,6097211,492,309,8886,47520,110,0,0,0,129,0,NonSpam
+182,'INC India','\"He was an able Parliamentarian & a popular leader. I remember him as a very soft spoken & honest person,\" said Shri Azad.',1562,1898435,2302,707,988,39929,86,0,0,0,122,0,NonSpam
+183,'Shiv Aroor','Chris Cornell, iconic frontman of @Soundgarden and @Audioslave has died. He was 52. https://t.co/KSkvPqx4fX',2573,516325,317,154,973,59042,6,0,2,1,107,3,Spam

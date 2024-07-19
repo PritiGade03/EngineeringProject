@@ -1,0 +1,175 @@
+@relation MyTestRelation
+
+@attribute twitid numeric
+@attribute username string
+@attribute tweetcontent string
+@attribute createaccount numeric
+@attribute followers numeric
+@attribute followings numeric
+@attribute userfavorite numeric
+@attribute listed numeric
+@attribute tweetcount numeric
+@attribute retweetcount numeric
+@attribute hashtagcount numeric
+@attribute mentioncount numeric
+@attribute urlcount numeric
+@attribute charcount numeric
+@attribute digitcount numeric
+
+@data
+1,'Sony Music India','Tag a #cutiepie and make his/her day! https://t.co/qTvWS91OL2 https://t.co/8gnPBIcfCs',2099,468286,865,3122,200,20117,2,1,0,1,85,4
+2,TSeries,'Watch the party song of the year #MainTeraBoyfriend,sung by @raiisonai & @iAmNehaKakkar, penned by @kumaarofficial… https://t.co/JLLr1q8ws8',2222,836179,229,881,329,15796,13,1,3,1,139,3
+3,'PMO India','RT @vijayrupanibjp: A warm welcome to PM @narendramodi to Gujarat & that too in a district very close to his heart - Kutch. https://t.co/EE…',1946,18042098,387,0,7082,15134,91,0,2,0,140,0
+4,'PMO India','The Prime Minister landed in Kutch, Gujarat marking the start of his 2-day Gujarat visit where he will join various… https://t.co/ZrbVrRjiY1',1946,18042098,387,0,7082,15134,111,0,0,1,140,2
+5,'Press Trust of India','Left workers, police clash during #MarchToNabanna programme; sercurity personnel use tear gas, water cannons.',2302,1457721,1,0,2701,48823,2,1,0,0,109,0
+6,'ShivrajSingh Chouhan','RT @CMMadhyaPradesh: Keep your children and yourself safe from heat waves. Stay hydrated & seek medical assistance in case of symptoms of h…',1536,2442434,262,1147,1301,14386,148,0,1,0,140,0
+7,'ABP News','J&K: Local cricket teams sing \'qaumi tarana\' song before match in Pulwama stadium\nhttps://t.co/pXfc3aerKt https://t.co/2j3xO7LVXj',2932,6559780,133,0,3080,149360,16,0,0,1,129,4
+8,'INC India','Vulnerable sections have been crippled! Are these Achhe Din? https://t.co/AlkgpEtu1a',1566,1903280,2301,707,995,39984,60,0,0,0,84,1
+9,'Press Trust of India','Three people die, four fall ill after consuming #spuriousliquor in Goshpur village near Madhya Pradesh\'s Morena town.',2302,1457721,1,0,2701,48823,2,1,0,0,117,0
+10,'Bollywood Hungama','\"God gave me opportunity to play Cricket, I am not God\" : @sachin_rt \n#TalkingFilms #SachinABillionDreams https://t.co/vGf50fFUdj',2923,1091805,584,877,1041,38585,11,2,1,0,129,2
+11,'Rajdeep Sardesai','And what happens to the netas who gave the coal block orders? https://t.co/7UIqYscPTP',2870,6112779,492,314,8890,47579,30,0,0,1,85,1
+12,'Rajdeep Sardesai','and this worthy gent is a member of parliament from Ahmedabad and the ruling party! Jai ho! https://t.co/Wa6wGDmjJF',2870,6112779,492,314,8890,47579,154,0,0,1,115,1
+13,'Bollywood Hungama','Khiladi @akshaykumar shares #brucelee \'s BEST lesson on Fighting https://t.co/wHnXcqQqAq',2923,1091805,584,877,1041,38585,16,1,1,0,88,0
+14,BJP,'Glimpses of BJP National President Shri @AmitShah\'s door to door campaign in Nalgonda, Telangana. #AmitShahInTS https://t.co/HqfP4xsVbc',2400,5035922,2,0,1713,161104,126,1,1,0,135,1
+15,'Sahil Shah','Chalo. Nice to know you. https://t.co/myMLtAvcEA',2415,679091,899,4710,317,53453,6,0,0,1,48,0
+16,'Press Trust of India','#Israel to supply advanced long-range air, missile defence systems to 4 Indian #Navy ships under $630 mln deal.',2302,1457721,1,0,2701,48823,63,2,0,0,111,4
+17,'Sahil Shah','Ah Twitter. \nThe place where the celebs you once idolized turn out to be giant assholes.',2415,679091,899,4710,317,53453,28,0,0,0,88,0
+18,'Zee Music Company','This heart-touching song by #RahulMishra will leave you spellbound! #TuHiHai from #HalfGirlfriend\nhttps://t.co/9LUk5UzrDk',1169,673094,419,2392,68,11782,3,3,0,1,121,2
+19,'Sahil Shah','RT @HoeZaay: I don\'t know about anyone else, but I\'m thoroughly enjoying \"Selfie Maine Leli Aaj\" by Dhinchak Pooja. https://t.co/wsuk1JCWL9',2415,679091,899,4710,317,53453,1823,0,1,0,139,2
+20,'ABP News','Indian national held in Pakistan for not possessing \'required\' documents\nhttps://t.co/G7xJxdlsZj https://t.co/CnG5yyQwcb',2932,6559780,133,0,3080,149360,1,0,0,1,120,2
+21,abhijeet,'That\'s wonderfull .. @MajorPoonia https://t.co/4k9QxKmxiZ',2156,1191740,280,81,190,12145,11,0,1,1,57,2
+22,TSeries,'RT @HindiMediumfilm: Watch #HindiMedium to know how Raj & Mita are trying to get her into a good school. Book now- https://t.co/etZc91cPmc…',2222,836179,229,881,329,15796,13,1,1,1,139,2
+23,'Press Trust of India','#Indian taxi driver #assaulted, abused in #Australia.',2302,1457721,1,0,2701,48823,12,3,0,0,53,0
+24,'Sahil Shah','RT @NigelBritto: Climbing Mt. Everest just got tougher & more dangerous. The Hillary Step, part of the final push, has collapsed. https://t…',2415,679091,899,4710,317,53453,34,0,1,0,140,0
+25,'Bollywood Hungama','.@aamir_khan REVEALS his favorite @sachin_rt MOMENT \nhttps://t.co/0NUk9o86u8 https://t.co/OeGEC0ZhBA',2923,1091805,584,877,1041,38585,12,0,2,1,100,6
+26,'Bollywood Hungama','RECORD @aamir_khan ’s #Dangal collects more than all other ranked releases combined on Day 17 at #China #boxoffice\nhttps://t.co/k2h3h2VkF1',2923,1091805,584,877,1041,38585,15,3,1,1,138,6
+27,'Bollywood Hungama','Delightfully HUMOROUS Prep of @iamsrk for #TedTalk #TEDTalkswithSRK \nhttps://t.co/CKEIOKN2FY https://t.co/jSRL1Gj8ri',2923,1091805,584,877,1041,38585,44,2,1,1,116,3
+28,'Press Trust of India','Sri Lankan President Maithripala #Sirisena reshuffles #Cabinet, names new foreign minister.',2302,1457721,1,0,2701,48823,6,2,0,0,91,0
+29,BJP,'Smt. @smritiirani is addressing a press conference at BJP HQ. Watch LIVE at https://t.co/jtwD1yPhm4 https://t.co/OX4dCqO3eF',2400,5035922,2,0,1713,161104,100,0,1,1,123,4
+30,'Press Trust of India','Man denied #ambulance, carries wife\'s body on stretcher in #UP.',2302,1457721,1,0,2701,48823,13,2,0,0,63,0
+31,'Bollywood Hungama','WHAT? @priyankachopra ’s bikini shots in #Baywatch getting chopped off in India?\nhttps://t.co/Cp9WOiUN4S',2923,1091805,584,877,1041,38585,4,1,1,1,104,2
+32,abhijeet,'U r forgetting #EnemyWithin main names.. they r feeling bad .. don\'t misuse our #IndianArmedForces Jeep.. y not usi… https://t.co/hxVMqIniWb',2156,1191740,280,81,190,12145,93,2,0,1,140,0
+33,'Press Trust of India','Members of fringe pro-Tamil outfit burn effigy of actor #Rajinikanth, opposing his entry in politics.',2302,1457721,1,0,2701,48823,6,1,0,0,101,0
+34,'Bollywood Hungama','#BoxOffice #Baahubali2 [Week 4] Fri 4.15 cr, Sat 6.35 cr, Sun 7.80 cr. Total: ? 478.30 cr Nett. HINDI. India biz. HIGHEST GROSSER EVER.',2923,1091805,584,877,1041,38585,6,2,0,0,135,16
+35,'ABP News','RT @pankajjha_: #UP #STF arrests #Vivek from Thane, who was brain behind the micro chip being installed in petrol pumps across UP @abpnewst…',2932,6559780,133,0,3080,149360,16,3,1,0,140,0
+36,'ABP News','RT @pankajjha_: #Mayawati to visit #Saharanpur tomorrow to meet affected Dalit families @abpnewstv @BSPindiaorg',2932,6559780,133,0,3080,149360,7,2,3,0,111,0
+37,'Vikram Chandra','RT @TulsiGabbard: In 2011 Trump says Saudi is \"the world\'s biggest funder of terrorism.\" But yesterday #TrumpinSaudi signs massive arms dea…',3096,2529639,159,78,2902,15239,1998,1,1,0,140,4
+38,'Bollywood Hungama','.@ParineetiChopra shares a REAL LIFE Incident from her school days\nhttps://t.co/2vavxQbrYd https://t.co/ySPiASgHfx',2923,1091805,584,877,1041,38585,3,0,1,1,114,1
+39,'Bollywood Hungama','.@aliaa08 \'s  CUTE moment with her mother #SoniRazdan as they were spotted at Airport \nhttps://t.co/DNYqPQ1vW6 https://t.co/AEJYs3NfWP',2923,1091805,584,877,1041,38585,1,1,1,1,134,5
+40,abhijeet,'And shoot them.. https://t.co/iNZIeANL8Y',2156,1191740,280,81,190,12145,184,0,0,1,40,1
+41,'ShivrajSingh Chouhan','We have decided to put a complete ban on sand excavators on the bank of River Narmada & anyone found using it will face severe consequences.',1536,2442434,262,1147,1301,14386,59,0,0,0,140,0
+42,'Bollywood Hungama','BREAKING: @duttsanjay to star in #TigmanshuDhulia’s #SahebBiwiaurGangster3\nhttps://t.co/HXNLCrUKrf',2923,1091805,584,877,1041,38585,1,2,1,1,98,1
+43,'Zee Music Company','.@SunidhiChauhan5’s new song #HawaVich sung along with @diljitdosanjh in #SuperSingh is magical!… https://t.co/yAH6lBDuGJ',1169,673094,419,2392,68,11782,4,2,2,1,121,2
+44,'Bollywood Hungama','HOT: #AishwaryaRaiBachchan steals the show in red ruffled gown at #Cannes2017 #AishwaryaAtCannes #LifeAtCannes \n\nhttps://t.co/nmQyFgM5Yo',2923,1091805,584,877,1041,38585,8,4,0,1,136,5
+45,'SUHEL SETH','Many thanks https://t.co/kwVBWheBVo',2942,3430039,1027,67,1639,35934,0,0,0,1,35,0
+46,'Bollywood Hungama','WOW! @sonamakapoor looks radiant in shimmery gown on the red carpet of #Cannes2017 #SonamAtCannes #LifeAtCannes \n\nhttps://t.co/ow6cUvUbqS',2923,1091805,584,877,1041,38585,4,3,1,1,137,5
+47,abhijeet,'Where Words fail.. \nMusic speaks .. https://t.co/Ipf0diPDrt',2156,1191740,280,81,190,12145,27,0,0,0,59,1
+48,'Bollywood Hungama','Must Watch : @SherlynChopra\'s  SEXIEST Photoshoot EVER\nhttps://t.co/w2FcIDhMml https://t.co/CUhtwXRG4Q',2923,1091805,584,877,1041,38585,6,0,1,1,102,2
+49,'Manohar Lal','RT @cmohry: CM @mlkhattar at a round table Interaction in Singapore with investors regarding the development of Smart Cities & Real Estate.…',2204,601350,248,0,456,7807,106,0,2,0,140,0
+50,'ABP News','#ACB summons @KapilMishraAAP to join water tanker scam probe\nhttps://t.co/ekLhFbNDfc https://t.co/5o5I0CHcVP',2932,6559780,133,0,3080,149360,18,1,1,1,108,3
+51,'SUHEL SETH','The goddamn Commies destroyed BENGAL for the years they ruled and are today, on a working day, again attempting to disrupt work in Kolkata.',2942,3430039,1027,67,1639,35934,146,0,0,0,139,0
+52,'Vikram Chandra','\"WhatsApp Rumours Led To Mob Killing Of 7 In Jharkhand\". Those deliberately spreading the rumours are also guilty.   https://t.co/F9ii2ygdEh',3096,2529639,159,78,2902,15239,22,0,0,1,140,3
+53,'Rajdeep Sardesai','The SC takes note of Chitra Devi plea: there is hope after all! https://t.co/Fx8hXwoADF',2870,6112779,492,314,8890,47579,16,0,0,1,87,1
+54,'Abhijit Majumder','Paresh Rawal should ignore Arundhati Roy. She feeds off India-bashing. Saying a politically incorrect thing to her is giving her victim-ammo',2871,322622,489,419,982,39130,77,0,0,0,140,0
+55,'Bollywood Hungama','Check out the Theatrical Trailer of \"#FlatNo211\"\nhttps://t.co/TbWLavg8bm https://t.co/7LjudUsmSx',2923,1091805,584,877,1041,38585,2,1,0,1,96,5
+56,'Eros Now','Celebrating #2YearsOfTanuWedsManuReturns! \nhttps://t.co/RVovMLOsHo\n@aanandlrai @ActorMadhavan @krishikalulla @cypplOfficial',1939,529305,486,5856,304,33039,2,1,4,1,123,1
+57,'Eros Now','When you\'re asked to give a sudden lecture on heart attack & you end up getting one.?? https://t.co/RVovMLOsHo… https://t.co/3W8ATsJe5c',1939,529305,486,5856,304,33039,4,0,0,2,137,3
+58,'Vikram Chandra','I thought lawyers were supposed to  REDUCE a client\'s liability! https://t.co/TSBs8bk54v',3096,2529639,159,78,2902,15239,22,0,0,1,88,3
+59,'Vikram Chandra','RT @soniandtv: I don\'t believe in Twitter polls at all but interesting to see this one ? https://t.co/RytPFHsB9Q',3096,2529639,159,78,2902,15239,9,0,1,1,113,1
+60,'Sagarika Ghose','This photo of Mohd. Naeem, father of 3, pleading urgently minutes before he was killed must never be forgotten https://t.co/JsjqqSDKaA',2870,2968656,663,114,3203,25754,511,0,0,0,134,1
+61,'Press Trust of India','#ArunJaitley files fresh #defamation suit of Rs 10 cr against @ArvindKejriwal in #HC for allegedly using objectionable word in court.',2302,1457721,1,0,2701,48823,32,3,1,0,133,2
+62,'Press Trust of India','#Defence Minister @arunjaitley pays tribute to soldiers martyred in #Kashmir.',2302,1457721,1,0,2701,48823,9,2,1,0,77,0
+63,'Press Trust of India','#Arms, #ammunition recovered in #Kupwara forest.',2302,1457721,1,0,2701,48823,13,3,0,0,48,0
+64,'Press Trust of India','Local #SP leader shot dead in #Ballia.',2302,1457721,1,0,2701,48823,11,2,0,0,38,0
+65,'Press Trust of India','50-year-old Kerala #fisherman attacked by stray #dogs, dies.',2302,1457721,1,0,2701,48823,7,2,0,0,60,2
+66,'VISHAL DADLANI','RT @jalajboy: Forced to follow AAP\'s great initiative in this. Highly needed and about time. Nation must take care of our forces. https://t…',2923,2576508,436,6201,2429,50711,436,0,1,0,140,0
+67,'Press Trust of India','#UnionMinister #HarshVardhan takes the charge of environment ministry.',2302,1457721,1,0,2701,48823,5,2,0,0,70,0
+68,'VISHAL DADLANI','Sounds uncannily like some other world-\"leaders\" too. Eerily familiar to people in India and the US. https://t.co/ou7J47oMwl',2923,2576508,436,6201,2429,50711,1,0,0,1,124,3
+69,'Press Trust of India','#SC issues notices to Centre and #Manipur govt on plea by parents of youth killed by son of state CM N #BirenSingh in #roadrage case.',2302,1457721,1,0,2701,48823,14,4,0,0,133,0
+70,'Press Trust of India','Delhi #HighCourt seeks response from #Maran brothers and others on #CBI\'s plea against their discharge in Aircel-Maxis deal case.',2302,1457721,1,0,2701,48823,3,3,0,0,129,0
+71,'VISHAL DADLANI','Yup. #Demonetisation has clearly made a HUGE difference! ??? #IdioticMove #ZeroPlanning #CashlessIndia #Bollocks https://t.co/vLkwOMdVno',2923,2576508,436,6201,2429,50711,26,5,0,1,139,0
+72,'Press Trust of India','25 #Indian doctors stranded in China\'s #Shenzhen city leave for #Macau.',2302,1457721,1,0,2701,48823,5,3,0,0,71,2
+73,'ABP News','Biggest Survey on Modi Govt: Watch #???????? today at 5 PM onward only on ABP News https://t.co/79LWr7C5Pm',2932,6559780,133,0,3080,149360,18,1,0,0,106,5
+74,'Sarbananda Sonowal','RT @CMOfficeAssam: CM interacted with cadres of Veerangana, Assam Police Special Women Unit, during launch of the Pilot Project. #SmartPoli…',1070,258301,101,315,199,3714,12,0,1,0,140,0
+75,'Sarbananda Sonowal','RT @CMOfficeAssam: CM @sarbanandsonwal launched Pilot Project for Guwahati Traffic Police at Judges Field in the city. Introducing #SmartPo…',1070,258301,101,315,199,3714,14,0,2,0,140,0
+76,'VISHAL DADLANI','Happy 25th, @TheFarahKhan ! Apparently our regular Bandra lunch-spot has re-opened. Tell me when you\'re free to cel… https://t.co/JGT4kxGmzm',2923,2576508,436,6201,2429,50711,3,0,1,1,140,3
+77,'Yash Raj Films','High five to life! ?  #MusicalMonday https://t.co/qJA0VwXMCB',2854,1878434,92,31,949,15569,1,1,0,1,61,1
+78,'Tips Films & Music','RT @kumartaurani: Check out #Osaathi from @IamOnir \'s @ShabTheFilm #songvideo https://t.co/8O0vo1PcJS\n\n@sanjaysuri\n@TandonRaveena\n@ArpitaCP…',1628,171631,190,2358,87,7811,6,2,6,1,140,3
+79,'Tips Films & Music','RT @ShabTheFilm: Much awaited #OSaathi by @raiisonai is out now - https://t.co/Y4DKbGeRPc \n@Mithoon11 @AnticlockFilms @IamOnir @sanjaysuri…',1628,171631,190,2358,87,7811,14,1,6,1,139,3
+80,'ABP News','After @RamJethmalani5’s slur, @arunjaitley slaps another defamation case on @ArvindKejriwal \nhttps://t.co/7jNaMua5SD https://t.co/58UgyNGF1E',2932,6559780,133,0,3080,149360,25,0,3,1,140,6
+81,'Dharma Productions','When Mondays are an opportunity to meet that someone special in class, you\'re always motivated!? #MondayMotivation… https://t.co/W914yxMqE5',2399,2600335,52,369,357,9571,19,1,0,1,140,4
+82,TSeries,'RT @ArmaanMalik22: Glad to see my first ever @IIFA nomination in the #BestPlaybackSinger category for my song #Besabriyaan from M.S. Dhoni…',2222,836179,229,881,329,15796,493,2,2,0,139,2
+83,'Shiv Aroor','RT @EkOldMonk: Can\'t wait to get my hands on it @ShivAroor! ??\n\n#OperationJinnah https://t.co/oGzdG3LC0C',2577,518455,318,155,985,59104,1,1,2,0,104,2
+84,'ABP News','Arun Jaitley files fresh ?10 crore defamation suit against Kejriwal over objectionable word used by CM\'s counsel Ram Jethmalani in court.',2932,6559780,133,0,3080,149360,50,0,0,0,137,2
+85,'ABP News','IAS officer Anurag Tiwari\'s death: Family reaches Lucknow to meet CM Yogi Adityanath, demands CBI enquiry… https://t.co/0HfUHl69w8',2932,6559780,133,0,3080,149360,13,0,0,1,130,4
+86,'Zee Music Company','There is a certain magic @dalermehndi brings to #JiyoReBaahubali from @BaahubaliMovie \nhttps://t.co/kgUtOYxVRG #MondayMotivaton',1169,673094,419,2392,68,11782,1,2,2,1,127,0
+87,'Manohar Lal','RT @cmohry: @mlkhattar @FollowCII CM @mlkhattar also attended @FollowCII India Business Forum in Singapore today.',2204,601350,248,0,456,7807,25,0,5,0,113,0
+88,'Manohar Lal','RT @cmohry: CM @mlkhattar at the luncheon hosted by @FollowCII in Singapore today. He also had an interactive session with other delegates.…',2204,601350,248,0,456,7807,62,0,3,0,140,0
+89,'Manohar Lal','RT @cmohry: CM @mlkhattar visited Hyflux Newater plant and took a tour of the treatment plant in Singapore today. https://t.co/0Hi4KKcR6s',2204,601350,248,0,456,7807,27,0,2,0,137,3
+90,TSeries,'RT @RaabtaOfficial: Mondays have never been so tempting! #MainTeraBoyfriend goes LIVE at 2 PM.\n\n@itsSSR @kritisanon #ArijitSingh @iAmNehaKa…',2222,836179,229,881,329,15796,73,2,3,0,140,1
+91,'Western Railway','RT @RailTel: Making a positive impact on people- #RailWire #WiFi is changing the Digital Ecosystem of the nation.  #DigitalIndia \nhttps://t…',744,56441,3,23,81,5852,14,3,1,0,140,0
+92,'SUHEL SETH','RT @David_Landsman: In next few days, UK residents will be able to contribute to @TMCKolkata online.  Watch this space... @TataEurope https…',2942,3430039,1027,67,1639,35934,3,0,3,0,140,0
+93,TSeries,'RT @kritisanon: Launch #MainTeraBoyfriend Song with me and @itsSSR at 2pm today on Facebook! https://t.co/JQTSXCsv54',2222,836179,229,881,329,15796,138,1,2,0,116,3
+94,TSeries,'RT @kritisanon: Super groovy club song coming out today! #MainTeraBoyfriend coming soon! \n@itsSSR \nPic credit: @filmfare https://t.co/Xs23C…',2222,836179,229,881,329,15796,132,1,3,0,140,2
+95,'ABP News','Row after @BSYBJP eats hotel food at #Dalit’s house, @BJP4India says ‘allegations politically motivated’… https://t.co/VcZB72iFKo',2932,6559780,133,0,3080,149360,28,1,2,1,129,3
+96,'Tips Films & Music','Have you been playing #OSaathi on loop already? We can\'t stop either!! Watch the full video on @YouTubeIndia now -… https://t.co/foErFiooqc',1628,171631,190,2358,87,7811,7,1,1,1,139,0
+97,'Sagarika Ghose','Thanks...the Indian middle class has sadly lost the idealism that once marked it... https://t.co/8vuxzu2dsV',2870,2968656,663,114,3203,25754,17,0,0,1,107,2
+98,'STAR PLUS','Can a promise made forever be broken? #LoveKaHaiIntezaar\n@keithsequeira @iamsanjeeda https://t.co/b9fnlya4aV',2729,1831352,630,1549,539,80022,23,1,2,0,108,2
+99,'SUHEL SETH','Remarkable English for a lit Fest! \"Spoke about their individual perceptions of shapes their idea of India\"??? Real… https://t.co/b9hEQi7IwG',2942,3430039,1027,67,1639,35934,12,0,0,1,140,2
+100,'Bollywood Hungama','\"#ThugsOfHindostan is not Inspired by #PiratesoftheCaribbean\" : @aamir_khan https://t.co/Km1bKrDIkG',2923,1091805,584,877,1041,38585,31,2,1,0,99,1
+101,'Sagarika Ghose','? Thanks https://t.co/l6x9UcqgLb',2870,2968656,663,114,3203,25754,19,0,0,1,33,2
+102,'Bollywood Hungama','BEST Reaction of @aamir_khan on #Dangal Storm in #China 500 Crores https://t.co/ygYROAIEQF',2923,1091805,584,877,1041,38585,30,2,1,0,90,3
+103,'Smriti Z Irani','RT @CMOGuj: #Gujarat is once again ready to welcome PM Shri @narendramodi who sowed the seeds of all-round development in the state',2603,6357040,305,21,2444,15043,117,1,2,0,131,0
+104,'Smriti Z Irani','RT @AmitShah: Sharing link of Editors\' Round Table by Aaj Tak on 3 years of PM Narendra Modi government.\nhttps://t.co/ySp70ZgsrL',2603,6357040,305,21,2444,15043,400,0,1,1,128,3
+105,'SUHEL SETH','RT @TajinderBagga: Urgent requirement AB+ or AB-  blood group Platelets IBLS Vasant Kunj New Delhi\nContact : Ramsingh 8920270107',2942,3430039,1027,67,1639,35934,190,0,1,0,128,10
+106,'SUHEL SETH','RT @TataCompanies: .@TataTrusts\' Parag initiative is opening up the world of books to children with disabilities. Read how: https://t.co/ch…',2942,3430039,1027,67,1639,35934,16,0,2,0,140,0
+107,'RJ ALOK','Many Many Happy Returns Of the Day Suhana ! #HappyBirthdaySuhanaKhan @iamsrk @gaurikhan Ki Mannat !! More Power ..M… https://t.co/8FpPOvCtP1',2764,299994,433,7982,89,25810,153,1,2,1,140,2
+108,'Bollywood Hungama','.@sachin_rt\'s AWE-INSPIRING respect for coach Achrekhar\n#TalkingFilms https://t.co/qTgtRnyZKZ',2923,1091805,584,877,1041,38585,3,1,1,0,93,0
+109,'Shekhar Gupta','Says CM/Centre shd put one D-G in charge of state police & central forces. Wants roads built & new tribal townships… https://t.co/hHjmIWps0R',1069,1458238,1099,8763,1178,9598,17,0,0,1,140,1
+110,'Bollywood Hungama','Must Watch : @irrfank\'s Hindi - English translation is as genius as his acting #TalkingFilms https://t.co/iaC4XpZvX5',2923,1091805,584,877,1041,38585,4,1,1,0,116,2
+111,'Bollywood Hungama','REVEALED:  What @aamir_khan thinks of #FatimaSanaShaikh \nhttps://t.co/w0sMpKbo4i',2923,1091805,584,877,1041,38585,5,1,1,1,80,2
+112,'Sagarika Ghose','RT @sharmanagendar: Delhi media shows its true colours of inherent bias by ignoring one of the biggest Dalit rallies in Delhi\'s recent hist…',2870,2968656,663,114,3203,25754,513,0,1,0,140,0
+113,'Zee Music Company','Get your feet tapping along with Gattu & Binny to #Jaanu sung by @JuggyD @raftaarmusic @ShivranjaniS in @BHTtheFilm… https://t.co/jkmAZ5z9dy',1169,673094,419,2392,68,11782,6,1,4,1,140,2
+114,'Smita Prakash','RT @sidin: Good morning from Kochi airport. The complete staff of the terminal Burger King outlet is eating dosas for breakfast. Jai Hind.',2887,343906,204,646,1270,70635,241,0,1,0,138,0
+115,'Sony Music India','#WriteRight and tell us the name of this song. https://t.co/e5Ncjs4Kd0',2099,468286,865,3122,200,20117,7,1,0,0,70,3
+116,'Shekhar Gupta','RT @IndiaExplained: The three witches of Macbeth, circa 2017 https://t.co/sQHYdpwPOU',1069,1458238,1099,8763,1178,9598,45,0,1,0,84,4
+117,'Bollywood Hungama','#BoxOffice @arjunk26 & @ShraddhaKapoor \'s #HalfGirlfriend has a GOOD weekend... Fri 10.27 cr, Sat 10.63 cr, Sun 11.14 cr. Total: ? 32.04 cr.',2923,1091805,584,877,1041,38585,61,2,2,0,140,18
+118,'Shekhar Gupta','\"Shame\" & all are loaded words. Stick to IPC which doesn\'t exempt MPs. It\'s incitement to violence on a fellow Indi… https://t.co/yOP4ltZuH4',1069,1458238,1099,8763,1178,9598,415,0,0,1,140,2
+119,'Rahul Kanwal','RT @AninBanerjeeeee: Hurriyat issues gag order on members from talking to National media. #HurriyatTruthTapes  @IndiaToday',2802,3204021,2732,1772,2269,27620,4,1,2,0,122,0
+120,'INC India','RT @OfficeOfRG: From Raj to UP, Haryana & now Jharkhand BJP ruled states are descending into chaos & lawlessness.Will the PM answer? https:…',1566,1903280,2301,707,995,39984,1458,0,1,0,140,0
+121,TSeries,'RT @itsSSR: Dialogue promo 4 out now.\n#Raabta\n@RaabtaOfficial @TSeries \n@kritisanon https://t.co/0cyFiUOPvp',2222,836179,229,881,329,15796,115,1,4,0,107,2
+122,TSeries,'RT @RaabtaOfficial: Thank God it\'s Monday! ????\n#MainTeraBoyfriend sizzles the tube today. RT if you are excited.\n@kritisanon @itsSSR @raii…',2222,836179,229,881,329,15796,94,1,3,0,144,0
+123,'Jayant Sinha','Now it’s easy to track status of reported air travel grievances. Simply type your reference or mobile number for th… https://t.co/CstGRcnAjr',3091,247076,162,692,557,8833,13,0,0,1,140,0
+124,'Rajdeep Sardesai','The rise of a new force in Dalit politics? https://t.co/YzdvEECtcd',2870,6112779,492,314,8890,47579,57,0,0,1,66,0
+125,'Bollywood Hungama','#BoxOffice @irrfank \'s #HindiMedium collects Rs 12.56 crore in 3 days. Fri Rs. 2.81 cr, Sat Rs. 4.25 cr Sun Rs. 5.5 cr',2923,1091805,584,877,1041,38585,7,2,1,0,118,13
+126,'Sagarika Ghose','How innocent Gulzar Bani lost 16 years of his life... https://t.co/S6cpVYIIrA',2870,2968656,663,114,3203,25754,50,0,0,1,77,3
+127,'Tips Films & Music','RT @ArpitaCP: #OSaathi by @raiisonai and composed by @Mithoon11, from @ShabTheFilm is finally out!! Hear it first on @Saavn  - https://t.co…',1628,171631,190,2358,87,7811,6,1,5,0,140,2
+128,'ABP News','Ahead of PM #NarendraModi’s Gujarat visit, Hardik Patel & Patidar youths tonsure heads\nhttps://t.co/SOBz6BuC1k https://t.co/EYEc3xZZwe',2932,6559780,133,0,3080,149360,47,1,0,1,134,3
+129,'Press Trust of India','#CBI seeks time to file reply to the bail pleas. #Court fixes the matter for argument on May 29.',2302,1457721,1,0,2701,48823,2,2,0,0,96,2
+130,'Sagarika Ghose','Mr @ChouhanShivraj kindly look at this video: https://t.co/Dk80RcMAvj',2870,2968656,663,114,3203,25754,18,0,1,1,69,2
+131,'SAB TV','Good Morning everyone. Have a great week. #AsliMazaaSABKeSaathAataHai.',2728,1433952,328,3399,97,38760,9,1,0,0,70,0
+132,'Press Trust of India','#Virbhadra Singh\'s wife #Pratibha and other accused, who have been charge-sheeted by the #CBI in the case, also seek bail.',2302,1457721,1,0,2701,48823,2,3,0,0,122,0
+133,'Press Trust of India','#HimachalPradesh CM #VirbhadraSingh appears in Delhi court in connection with a disproportionate assets case, seeks bail.',2302,1457721,1,0,2701,48823,4,2,0,0,121,0
+134,'Jayant Sinha','Why we’re more achhe today than three years ago\nhttps://t.co/VahwdpHBVt \n\nvia NMApp https://t.co/FzQ7thJUee',3091,247076,162,692,557,8833,4,0,0,1,107,1
+135,'RJ ALOK','22 May 1992, So  #25YearsOfJJWS and when we met Full Team at @MumbaiFilmFest including @aamir_khan @TheFarahKhan n… https://t.co/nbYKrKqUVe',2764,299994,433,7982,89,25810,1,1,3,1,139,8
+136,'Shiv Aroor','a.k.a. \"Trump tune kya kiya\" https://t.co/3w7lb2pBYn',2577,518455,318,155,985,59104,11,0,0,1,52,3
+137,'Jayant Sinha','Huge Response To PM Narendra Modi\'s Monthly Address: All India Radio\nhttps://t.co/Q2PGh6jjhz \n\nvia NMApp https://t.co/dLCRb4l0nO',3091,247076,162,692,557,8833,9,0,0,1,128,4
+138,'STAR PLUS','RT @remodsouza: Kya #Bangalore mein milega dance ka ek naya andaaz? Let’s find out at the #DancePlus3 auditions Tomorrow from 9am onwards!…',2729,1831352,630,1549,539,80022,19,2,1,0,139,2
+139,'Bollywood Hungama','.@aamir_khan ’s #Dangal collects $11.63 mil. on Day 17 at #China #boxoffice; total $112.54 mil. [Rs. 725.71 cr.]\nhttps://t.co/Gh2jJ8VOnZ',2923,1091805,584,877,1041,38585,43,3,1,1,136,18
+140,'Sony Music India','RT @JioMusicHD: It\'s here! The biggest song of 2017 #Radio. Listen Now 1st only on JioMusic - https://t.co/cSvPhoZQh2 \n\n@BeingSalmanKhan @i…',2099,468286,865,3122,200,20117,3361,1,2,1,140,6
+141,'ABP News','Case registered against 500 people in #Moradabad for showing black flags to CM @myogiadityanath #Saharanpur… https://t.co/SziGJKEgHF',2932,6559780,133,0,3080,149360,41,2,1,1,132,3
+142,'Tips Films & Music','RT @Saavn: First track from #ShabTheFilm, #OSaathi by @raiisonai  #OutNow. Listen to it exclusively on Saavn. https://t.co/6hhXo3Da0l',1628,171631,190,2358,87,7811,11,3,2,1,133,3
+143,'Tips Films & Music','RT @kumartaurani: CheckOut @tipsofficial #Osaathi from @ShabTheFilm 1st on @Saavn\n\n@Mithoon11\n@ARIJIT__SINGH\n@IamOnir\n@sanjaysuri\n\nhttps://…',1628,171631,190,2358,87,7811,13,1,8,0,140,3
+144,'Sagarika Ghose','RT @swarraj: What is this absolutely despicable low our public discourse has reached? Intolerant with everything else, why do we tolerate t…',2870,2968656,663,114,3203,25754,13,0,1,0,140,0
+145,'SUHEL SETH','Heart-warming to see the Tata Medical Centre in Kolkata, set up by the @tatatrusts, providing exceptional care for cancer patients...',2942,3430039,1027,67,1639,35934,35,0,1,0,133,0
+146,'Rajdeep Sardesai','Happens in T 20. Left it too late.Played middle overs with extra caution.Time to move on!Bigger issues facing India! https://t.co/wgbdRJJfMc',2870,6112779,492,314,8890,47579,5,0,0,1,140,2
+147,'Sagarika Ghose','Wonderful sir, too good. You really are a model parliamentarian https://t.co/rPjPWRYC3Q',2870,2968656,663,114,3203,25754,121,0,0,1,87,1
+148,'ABP News','Kashmir: Four terrorists killed; three jawans martyred in Handwara encounter\n\nhttps://t.co/WzBX54HWpY',2932,6559780,133,0,3080,149360,15,0,0,1,101,2
+149,'SUHEL SETH','RT @tatatrusts: At Tata Trusts, we take pride in our heritage and wish to continue our efforts in preserving India\'s #culture. #CulturalDiv…',2942,3430039,1027,67,1639,35934,15,1,1,0,140,0
+150,'Shekhar Gupta','Sir ji, when Hon\'ble SC gives priority to ruling cricket over 6 cr pending cases, nothing wrong fussing over a pet,… https://t.co/zz1B0TD0if',1069,1458238,1099,8763,1178,9598,81,0,0,1,140,4
+151,'Tips Films & Music','#OSaathi by @raiisonai and composed by @Mithoon11, from @ShabTheFilm is finally out!! Hear it first on @Saavn -… https://t.co/s6aU3RbGpO',1628,171631,190,2358,87,7811,25,1,4,1,136,4
+152,'Rajdeep Sardesai','Suprabhatam! Challenges are what make life interesting; overcoming them make life meaningful! Have a great week friends',2870,6112779,492,314,8890,47579,34,0,0,0,119,0
+153,'Sagarika Ghose','RT @SoniaChopra28: All you need this know about attacks on #Muslims in #India has been compiled by this fearless journalist who stands up f…',2870,2968656,663,114,3203,25754,21,2,1,0,140,2
+154,'STAR PLUS','#Bangalore, get ready to groove! #DancePlus3 auditions are coming to your city! Gates open Tomorrow at 9am.… https://t.co/DbwScwRvGE',2729,1831352,630,1549,539,80022,4,2,0,1,132,2
+155,'SAB TV','Hey @RAHULRAMRO here\'s @AnjuJadhav3 wishing you a very #HappyBirthday. https://t.co/ThWTthSYzn',2728,1433952,328,3399,97,38760,4,1,2,0,94,1
+156,'RJ ALOK','Dearest @AzmiShabana Ji, Doesn\'t he looks like our Macho Man @SonuSood ? https://t.co/9FgpaMFwDV',2764,299994,433,7982,89,25810,3,0,2,0,96,1
